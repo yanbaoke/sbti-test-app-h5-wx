@@ -2,6 +2,8 @@
 
 > 一个充满趣味性的人格测试小程序，测出你的隐藏人格！
 
+**在线体验：https://yanbaoke.github.io/sbti-test-app-h5-wx/#/**
+
 基于 B站 UP主 **蛆肉儿串儿** 的 SBTI 人格测试改编。这是一个趣味性人格测试应用，通过 30 道精选题目分析你的人格类型，共包含 16 种独特的人格类型。
 
 **快来测测你是"拿捏者"、"吗喽"还是"酒鬼"？**
@@ -211,6 +213,8 @@ intro (首页) → test (测试) → result (结果)
 # SBTI Personality Test Mini Program 🎭
 
 > A fun personality test mini program - discover your hidden personality!
+
+**Live Demo: https://yanbaoke.github.io/sbti-test-app-h5-wx/#/**
 
 Adapted from Bilibili creator **蛆肉儿串儿**'s SBTI personality test. This is an entertaining personality test application that analyzes your personality type through 30 carefully selected questions, featuring 16 unique personality types.
 
