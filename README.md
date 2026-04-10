@@ -9,7 +9,7 @@
 ## 技术栈
 
 - **框架**: UniApp (Vue 3)
-- **平台**: 微信小程序 / H5
+- **平台**: 微信小程序 / H5 /app
 - **UI**: 原生组件 + 自定义样式
 
 ## 项目结构
@@ -203,3 +203,167 @@ intro (首页) → test (测试) → result (结果)
 - 本测试仅供娱乐，请勿将其作为任何严肃决策的依据
 - 测试结果不代表任何医学、心理学、相学、命理学或灵异学结论
 - 如有雷同，纯属巧合；如有冒犯，纯属无意
+
+---
+
+# English Version
+
+# SBTI Personality Test Mini Program 🎭
+
+> A fun personality test mini program - discover your hidden personality!
+
+Adapted from Bilibili creator **蛆肉儿串儿**'s SBTI personality test. This is an entertaining personality test application that analyzes your personality type through 30 carefully selected questions, featuring 16 unique personality types.
+
+**Come find out if you're a "Controller", "Malo" or "Drunkard"!**
+
+## Tech Stack
+
+- **Framework**: UniApp (Vue 3)
+- **Platform**: WeChat Mini Program / H5
+- **UI**: Native components + Custom styles
+
+## Project Structure
+
+```
+sbti-uniapp/
+├── pages/
+│   ├── intro/intro.vue    # Home/Introduction page
+│   ├── test/test.vue      # Test page
+│   └── result/result.vue  # Result page
+├── static/
+│   └── personalities/     # Personality card images
+├── utils/
+│   ├── questions.js       # Test questions (30 regular + 2 special)
+│   ├── personalities.js   # 16 personality type definitions
+│   └── calculator.js      # Personality calculation logic
+├── App.vue               # App entry (global styles)
+├── main.js               # Main entry
+├── pages.json            # Page configuration
+└── manifest.json         # App configuration
+```
+
+## Features
+
+1. **30 Carefully Selected Questions** - Deep analysis of personality traits across 5 dimensions
+2. **16 Personality Types** - Discover your true self
+3. **Save Personality Cards** - Save and share your test results
+4. **Download All Cards** - One-click download of all personality cards
+5. **Dynamic Question Branching** - Questions adjust based on your answers
+
+## Test Dimensions
+
+The test is scored based on 5 core dimensions:
+
+| Dimension | Name | Low Score | High Score |
+|-----------|------|-----------|------------|
+| S | Self | Insecure/Confused/Chill | Confident/Clear/Ambitious |
+| E | Emotion | Anxious/Detached/Fused | Secure/Engaged/Independent |
+| A | Attitude | Skeptical/Rebellious/Nihilistic | Trusting/Compliant/Fulfilled |
+| Ac | Action | Avoidant/Hesitant/Procrastinating | Proactive/Decisive/Efficient |
+| So | Social | Passive/Open/Authentic | Active/Closed/Masked |
+
+## Quick Start
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Add Personality Card Images
+
+Add the following image files to `static/personalities/` directory:
+
+| Filename | Personality Type | Chinese Name |
+|----------|------------------|--------------|
+| CTRL.png | Controller | 拿捏者 |
+| BOSS.png | Leader | 领导者 |
+| GOGO.jpg | Traveler | 行人 |
+| SEXY.png | Charmer | 尤物 |
+| FAKE.png | Imposter | 伪人 |
+| MALO.png | Meme Lord | 吗喽 |
+| SHIT.png | Cynic | 愤世者 |
+| ZZZZ.png | Slacker | 装死者 |
+| POOR.png | Pauper | 贫困者 |
+| MONK.png | Monk | 僧人 |
+| IMSB.png | Fool | 傻者 |
+| SOLO.png | Loner | 孤儿 |
+| DEAD.png | Zen Master | 死者 |
+| IMFW.png | Self-Deprecator | 废物 |
+| HHHH.png | Joker | 傻乐者 |
+| RUNK.png | Drunkard | 酒鬼 |
+
+### 3. Run Project
+
+```bash
+# Run for WeChat Mini Program
+npm run dev:mp-weixin
+
+# Run for H5
+npm run dev:h5
+```
+
+### 4. Build
+
+```bash
+# Build for WeChat Mini Program
+npm run build:mp-weixin
+
+# Build for H5
+npm run build:h5
+```
+
+## Personality Types
+
+| Code | Name | Badge | Intro |
+|------|------|-------|-------|
+| CTRL | Controller | Master of Control | Gotcha! |
+| BOSS | Leader | Natural Born Leader | Always holding the steering wheel |
+| GOGO | Traveler | Action Taker | gogogo~ Let's go! |
+| SEXY | Charmer | Charm Master | You're a natural charmer! |
+| FAKE | Imposter | Social Expert | No humans left. |
+| MALO | Meme Lord | Meme King | Monkey lives matter! |
+| SHIT | Cynic | Clear-sighted | This world is doomed. |
+| ZZZZ | Slacker | Lying Flat Artist | ......zZZ |
+| POOR | Pauper | Spiritual Noble | Empty wallet, full dreams. |
+| MONK | Monk | Zen Life | Amitabha. |
+| IMSB | Fool | Sincere Soul | I'm a fool. |
+| SOLO | Loner | Lone Wolf | Being alone is fine. |
+| DEAD | Zen Master | Transcendent | ...... |
+| IMFW | Self-Deprecator | Self-Mockery Master | I'm useless. |
+| HHHH | Joker | Joy Source | Hahahahaha! |
+| RUNK | Drunkard | Wine Immortal | Another round! |
+
+## Source
+
+Adapted from Bilibili creator **蛆肉儿串儿**'s SBTI personality test:
+- Video: https://www.bilibili.com/video/BV1LpDHByET6/
+- Original Test: https://www.bilibili.com/blackboard/era/VxiCX2CRqcqzPK9F.html
+
+Thanks to the creator for such a fun personality test!
+
+## About This Project
+
+This is a fun personality test mini program with humorous questions and witty result interpretations. Whether you get "Controller", "Meme Lord" or "Drunkard", just take it with a grain of salt - it's all for entertainment!
+
+**Feel free to try, share, and promote!**
+
+## Business Cooperation
+
+For the following services, please contact:
+
+- Mini Program deployment
+- Ad monetization integration
+- App development
+- Multi-platform publishing
+- Custom development
+
+Contact:
+
+![QR Code](https://tcpics.quzili.cn/files/1775797214cFHgj4.png)
+
+## Disclaimer
+
+- This test is for entertainment purposes only
+- Results do not represent any medical, psychological, or mystical conclusions
+- Any resemblance is purely coincidental; any offense is unintentional
