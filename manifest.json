@@ -1,0 +1,17 @@
+{
+    "name" : "SBTI人格测试",
+    "appid" : "__UNI__1BA7403",
+    "description" : "SBTI 人格测试小程序",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "mp-weixin" : {
+        "appid" : "wx32f2dcd323b62330",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "minified" : true
+        },
+        "usingComponents" : true
+    }
+}

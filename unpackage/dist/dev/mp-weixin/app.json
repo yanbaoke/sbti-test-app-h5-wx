@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/intro/intro",
+    "pages/test/test",
+    "pages/result/result"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SBTI 人格测试",
+    "navigationBarBackgroundColor": "#1a1a2e",
+    "backgroundColor": "#0f0f1a"
+  },
+  "usingComponents": {}
+}

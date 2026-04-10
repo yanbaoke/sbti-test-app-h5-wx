@@ -1,0 +1,122 @@
+
+.container.data-v-3e202046 {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+.progress-bar.data-v-3e202046 {
+  height: 8rpx;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+.progress-fill.data-v-3e202046 {
+  height: 100%;
+  background: linear-gradient(90deg, #e94560 0%, #ff6b6b 100%);
+  transition: width 0.3s ease;
+}
+.progress-text.data-v-3e202046 {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  font-size: 24rpx;
+  color: #a0a0a0;
+}
+.question-scroll.data-v-3e202046 {
+  flex: 1;
+  width: 100%;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.question-card.data-v-3e202046 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 24rpx;
+  padding: 40rpx;
+  margin-bottom: 40rpx;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.question-text.data-v-3e202046 {
+  font-size: 32rpx;
+  color: #ffffff;
+  line-height: 1.8;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.options.data-v-3e202046 {
+  margin-top: 20rpx;
+}
+.option-item.data-v-3e202046 {
+  display: flex;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.option-item.selected.data-v-3e202046 {
+  background: rgba(233, 69, 96, 0.2);
+  border-color: #e94560;
+}
+.option-item.data-v-3e202046:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+.option-letter.data-v-3e202046 {
+  width: 48rpx;
+  height: 48rpx;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  color: #ffffff;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+.option-item.selected .option-letter.data-v-3e202046 {
+  background: #e94560;
+}
+.option-text.data-v-3e202046 {
+  font-size: 28rpx;
+  color: #ffffff;
+  line-height: 1.6;
+  flex: 1;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.footer.data-v-3e202046 {
+  padding: 30rpx 40rpx;
+  display: flex;
+  gap: 20rpx;
+  background: rgba(0, 0, 0, 0.3);
+}
+.nav-btn.data-v-3e202046 {
+  flex: 1;
+  height: 88rpx;
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-btn.prev.data-v-3e202046 {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.nav-btn.next.data-v-3e202046,
+.nav-btn.submit.data-v-3e202046 {
+  background: linear-gradient(135deg, #e94560 0%, #ff6b6b 100%);
+  color: #ffffff;
+}
+.nav-btn[disabled].data-v-3e202046 {
+  opacity: 0.5;
+}
+
